@@ -19,7 +19,7 @@
    
                   <a href="#" class="font-medium flex justify-center text-gray-900 hover:text-gray-500">Team</a>
    
-                  <a href="/career.html" class="font-medium flex justify-center text-gray-900 hover:text-gray-500">Career</a>
+                  <a class="font-medium flex justify-center text-gray-900 hover:text-gray-500"><router-link to="/CareerPage">Career</router-link></a>
    
                   <a href="#" class="font-medium flex justify-center text-gray-900 hover:text-gray-500">Contact</a>
    
