@@ -9,7 +9,7 @@
                 
             </div>
            <div class="space-x-10 flex justify-center items-center sm:grid sm:grid-cols-4 sm:space-x-0 md:space-x-5" >
-              <a href="/" class="font-medium flex justify-center text-gray-900 hover:text-gray-500 ">Home</a>
+              <a href="/" class="font-medium flex justify-center text-gray-900 hover:text-gray-500 "><router-link to="/">Home</router-link></a>
 
               <a href="#" class="font-medium flex justify-center text-gray-900 hover:text-gray-500">Work</a>
 

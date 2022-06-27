@@ -9,7 +9,7 @@
                     
                 </div>
                <div class="space-x-10 flex sm:grid sm:grid-cols-4 sm:space-x-0" >
-                  <a class="font-medium text-gray-900 hover:text-gray-500 "><router-link to="/">Career</router-link></a>
+                  <a class="font-medium text-gray-900 hover:text-gray-500 "><router-link to="/">Home</router-link></a>
    
                   <a href="#" class="font-medium text-gray-900 hover:text-gray-500">Work</a>
     
