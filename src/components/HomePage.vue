@@ -52,11 +52,16 @@
 
     <!-- what we do section -->
 
-    <div class="grid grid-cols-2 gap-x-28 pt-32 pb-10 sm:grid-cols-1 md:gap-x-2 lg:gap-x-10"> 
-        <div class="h-98 bg-[url('../assets/p2.png')] bg-right bg-no-repeat sm:bg-center">
-            <a class="text-xl float-right bg-white mr-7 px-5 py-2 sm:pr-32">View Detail</a>
+    <div class="grid grid-cols-2 gap-x-28 pb-10 sm:grid-cols-1 md:gap-x-2 lg:gap-x-10"> 
+        <div>
+            <div class="pt-16">
+                <div class="relative ">
+                <img class="absolute top-0 right-0 sm:static" src="../assets/p2.png">
+                <a class="absolute top-0 right-0 text-xl mt-6 bg-white mr-7 px-5 py-3 flex justify-center items-center sm:pr-32 ">View Detail</a>
+                </div>
+            </div>
         </div>
-        <div class="pr-48 sm:pr-0 sm:pl-5 md:pr-0 lg:pr-0"> 
+        <div class="pr-48 pt-32 sm:pr-0 sm:pl-5 md:pr-0 lg:pr-0"> 
             <p class="text-4xl text-[#414141] font-bold pl-10 pb-5">What We Do?</p>
             <section class="pb-5">
                 <div class="flex">
@@ -85,10 +90,12 @@
 
     <!-- how we work section -->
 
-    <div class="pb-20">
-        <div class=" flex  items-center bg-[url('/assets/work.png')] bg-right bg-no-repeat h-100 bg-[length:900px_480px]">
-            <div class="z-0 ml-100 h-72 pl-10 w-98 bg-white drop-shadow-[0_5px_20px_rgba(0,0,0,0.09)] sm:ml-0 md:ml-0">
-                <p class="text-5xl text-[#414141] pt-10 pb-5"> How we work?</p>
+    <div class="h-120 pt-32 pb-20">
+        <div class="relative">
+            <img class="absolute inset-y-0 right-0 w-[900px] h-[480px]" src="../assets/work.png">
+
+            <div class="absolute z-0 ml-100 h-72 mt-24 pl-10 w-98 bg-white drop-shadow-[0_5px_20px_rgba(0,0,0,0.09)] sm:ml-0 md:ml-0 sm:w-96">
+                <p class="text-5xl text-[#414141] pt-10 pb-5 sm:text-4xl sm:font-bold"> How we work?</p>
                 <p class="text-[#9F9F9F]">Let's discuss what project</p>
                 <p class="text-gray-400 pb-10">you have in mind</p>
                 <a class="bg-[#4A4A4A] text-white px-10 py-4 font-bold" href="#">Let's Have a Coffee</a>
@@ -97,6 +104,8 @@
 
         </div>
     </div>
+
+    
 
 
     <!-- our customer section -->
@@ -176,10 +185,12 @@
     <div class = "px-44 pb-10 grid grid-cols-3 pl-48 sm:grid-cols-1 sm:px-10 md:px-5 lg:px-10">
         <div>
             <p class="pl-32 text-2xl text-[#414141] pb-5 font-bold md:pl-0 lg:pl-0">Location</p>
-            <div class="h-36 bg-[url('../assets/loc.png')] bg-no-repeat">
-               <div class="bg-white w-48 m-4 p-3 inline-block">
+            <div class="">
+                <div class="relative"><img src="../assets/loc.png">
+               <div class="absolute left-0 top-0 bg-white w-48 m-4 p-3 md:w-auto">
                 <p class="text-xl font-bold text-[#414141]">Twiscode</p>
                 <p class="text-sm text-[#414141]">JI. Kayoon, Surabaya</p>
+               </div>
                </div>
             </div>
 
