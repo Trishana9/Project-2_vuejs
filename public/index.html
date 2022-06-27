@@ -5,7 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <script>
+      tailwind.config = {
+         theme: {
+             extend: {
+                 width: {
+                 '100': '50rem',
+                 '98' : '36rem',
+                 
+             },
+ 
+             height: {
+                 '100': '36rem',
+                 '98': '29rem',
+             },
+ 
+             margin: {
+                 '100': '35rem',
+             },
+ 
+             fontFamily: {
+                 'poppins': ['Poppins'],
+              },
+ 
+             screens: {
+           'sm': {'max': '640px'},
+            'md': {'min': '640px', 'max': '991px'},
+            'lg': {'min': '991px', 'max': '1300px'},
+            'xl':{'min': '1300px', 'max': '1600px'}
+           },       
+         },
+         }
+         }
+   </script>
   </head>
   <body>
     <noscript>
